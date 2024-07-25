@@ -1,0 +1,16 @@
+{
+  "name": "@types/u-logger",
+  "version": "1.0.0",
+  "type": "module",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./index.d.ts",
+      "require": "./index.d.cts"
+    },
+    "./live": {
+      "import": "./live.d.ts",
+      "require": "./live.d.cts"
+    }
+  }
+}
